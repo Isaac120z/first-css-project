@@ -1,0 +1,150 @@
+
+
+
+body {
+    background-image: url("../../backsplash.png");
+}
+nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 10vh;
+    
+}
+.small-logo {
+    margin-left: 2%;
+}
+
+.design-better {
+    color: white;
+    margin-top: 20px;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+.middlewords{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+.books{
+    padding: 12px;
+}
+
+.podcast{
+    padding: 12px;
+}
+.workshops{
+    padding: 12px;
+}
+
+.subscribe-button{
+    background: transparent;
+    background-image: -webkit-linear-gradient(top, transparent, transparent);
+    background-image: -moz-linear-gradient(top, transparent, transparent);
+    background-image: -ms-linear-gradient(top, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent);
+    background-image: linear-gradient(to bottom, transparent, transparent);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: sans-serif;
+    color: WHITE;
+    font-size: 15px;
+    padding: 10px;
+    border: solid WHITE 1px;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+
+
+.subscribe{
+    color: white;
+    font-family: sans-serif;
+}
+
+.focus{
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.large-text{
+    color:white;
+    font-size: 45pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.small-text{
+    color:white;
+    font-size: 12pt;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.8;
+}
+
+.button{
+    float: center;
+    border-radius: 28px;
+    background: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+   
+
+}
+
+.exploring {
+    color: blue;
+    font-size: 8pt;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+    
+.last-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inverted-word{
+    color: white;
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -webkit-transform:rotate(180deg);
+    font-size: 10pt;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-left: 80px;
+    margin-left: 5%;
+}
+
+.scroll{
+    font-family: sans-serif;
+    padding-top: 150px;
+    padding-left: 0px;
+    font-size: 12pt;
+}
+
+  
+.icons{
+    padding-top: 10px;
+    margin-right: 5%;
+}
+    
+    
+.scroll{
+    color: white;
+}
